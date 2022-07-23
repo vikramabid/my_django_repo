@@ -6,7 +6,7 @@ from django.db.models import Q
 # Create your views here.
 def retreve_view(request):
   #emp_list=Employee.objects.all()
-
+  print("Hello Vikram Abid")
   emp_list = Employee.objects.all().order_by('ename')
 
 
